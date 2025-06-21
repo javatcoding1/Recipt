@@ -21,7 +21,7 @@ const DiscountCard = () => {
       {discount && (
         <div className='bg-white flex-row mx-auto justify-center items-center rounded-2xl shadow p-4 max-w-md text-black w-full'>
           <Image
-            src="{discount.store.logo}"
+            src={discount.store.logo}
             alt='offer image'
             width={500}
             height={300}
